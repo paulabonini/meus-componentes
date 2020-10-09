@@ -1,0 +1,1 @@
+Menu de navegação simples, com destaque em rosa.
