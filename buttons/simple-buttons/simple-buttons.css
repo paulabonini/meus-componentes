@@ -1,0 +1,88 @@
+/* The base of every button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+}
+
+/* Additional styles for "Default" */
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/* Additional styles for "Primary" */
+.btn-primary {
+  background-color: #337ab7;
+  border: #2e6da4;
+}
+  
+
+.btn-primary:hover {
+  background-color: #286090;
+  border: #204d74;
+}
+
+/* Additional styles for "Success" */
+
+.btn-success {
+  background-color: #5cb85c;
+  border: #4cae4c;
+}
+
+.btn-success:hover {
+  background-color: #449d44;
+  border: #398439;
+}
+
+/* Additional styles for "Success" */
+
+.btn-info {
+  background-color: #5bc0de;
+  border: #46b8da;
+}
+
+.btn-info:hover {
+  background-color: #31b0d5;
+  border: #269abc;
+}
+
+/* Additional styles for "Warning" */
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border: #eea236;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+  border: #d58512;
+}
+
+/* Additional styles for "Danger" */
+
+.btn-danger {
+  background-color: #d9534f;
+  border: #d43f3a;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+  border: #ac2925;
+}
